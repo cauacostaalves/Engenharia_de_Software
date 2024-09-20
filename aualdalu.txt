@@ -1,0 +1,47 @@
+Requisitos Funcionais:
+
+Definição: Requisitos funcionais descrevem as funcionalidades específicas que um sistema deve fornecer. 
+Eles definem o que o sistema deve fazer, incluindo as interações do usuário e as respostas do sistema a entradas específicas.
+
+Exemplo:
+- Requisito: O sistema deve permitir que os usuários se registrem com um endereço de e-mail e uma senha.
+- Descrição: Esse requisito especifica que, ao acessar a página de registro, os usuários devem conseguir criar uma conta fornecendo
+ seu e-mail e criando uma senha. Após a validação, o sistema deve armazenar essas informações e permitir que o usuário faça login posteriormente.
+
+---
+
+Requisitos Não-Funcionais
+
+Definição: Requisitos não-funcionais estabelecem as condições que o sistema deve atender, relacionadas ao desempenho, segurança,
+ usabilidade e outras qualidades. Eles definem como o sistema deve operar em vez de o que ele deve fazer.
+
+Exemplo:
+- Requisito: O sistema deve ter um tempo de resposta de no máximo 2 segundos para 95% das requisições dos usuários.
+- Descrição: Esse requisito define um critério de desempenho. Ele assegura que, ao utilizar o sistema, os usuários não devem esperar
+ mais do que 2 segundos para que suas ações (como carregar uma página ou buscar informações) sejam concluídas, promovendo uma experiência fluida.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Requisitos de Usuários:
+
+Definição: Requisitos de usuários descrevem as necessidades e expectativas dos usuários em relação a um sistema. 
+Eles ajudam a entender o que os usuários desejam alcançar e como o sistema pode apoiá-los.
+
+1. **Who (Quem)**:
+   - Identifica os usuários que farão uso do sistema.
+   - Exemplo: "Usuários finais, como clientes que compram produtos online."
+
+2. **What (O que)**:
+   - Descreve a funcionalidade ou necessidade específica que o usuário deseja.
+   - Exemplo: "Os usuários devem poder visualizar o histórico de suas compras."
+
+3. **Why (Por que)**:
+   - Explica a razão pela qual essa necessidade é importante.
+   - Exemplo: "Para que os usuários possam facilmente acompanhar suas compras anteriores e gerenciar retornos ou trocas."
+
+Juntando os elementos:
+- **Requisito de Usuário**: "Os usuários finais devem poder visualizar o histórico de suas compras para que possam facilmente 
+acompanhar suas compras anteriores e gerenciar retornos ou trocas."
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
