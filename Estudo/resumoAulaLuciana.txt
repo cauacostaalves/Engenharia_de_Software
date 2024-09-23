@@ -178,3 +178,119 @@ O Manifesto Ágil, criado em 2001, é um documento que define os princípios fun
 O Manifesto Ágil promove uma cultura de melhoria contínua e adaptação, essencial para o sucesso em ambientes 
 de desenvolvimento dinâmicos.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Modelos de Desenvolvimento de Software: ##
+
+1. **Modelo Cascata**:
+   - **Descrição**: Segue uma sequência linear de fases: Requisitos, Design, Implementação, Verificação e Manutenção.
+   - **Quando usar**: Projetos com requisitos bem definidos e estáveis, onde as mudanças são raras. Ideal para 
+   projetos governamentais ou de engenharia.
+   - **Exemplo**: Desenvolvimento de um sistema de controle de tráfego aéreo.
+
+2. **Modelo Incremental**:
+   - **Descrição**: O desenvolvimento é feito em pequenos incrementos, cada um adicionando funcionalidades ao sistema.
+   - **Quando usar**: Projetos que podem ser divididos em partes menores e entregues em incrementos. 
+   Permite feedback contínuo e ajustes ao longo do processo.
+   - **Exemplo**: Desenvolvimento de um sistema de gerenciamento de clientes (CRM).
+
+3. **Modelo de Prototipação**:
+   - **Descrição**: Criação de protótipos funcionais para entender melhor os requisitos e obter feedback dos usuários.
+   - **Quando usar**: Projetos onde os requisitos não são bem compreendidos inicialmente. 
+   Útil para explorar ideias e obter feedback antes de desenvolver o produto final.
+   - **Exemplo**: Desenvolvimento de um novo aplicativo móvel com funcionalidades inovadoras.
+
+4. **Modelo RAD (Rapid Application Development)**:
+   - **Descrição**: Foco na rápida construção de protótipos e iterações frequentes.
+   - **Quando usar**: Projetos que exigem desenvolvimento rápido e flexível, 
+   com foco na construção de protótipos e iterações frequentes.
+   - **Exemplo**: Desenvolvimento de um aplicativo de e-commerce para lançamento rápido no mercado.
+
+5. **Modelo Espiral**:
+   - **Descrição**: Combina elementos do modelo cascata e da prototipação, com foco na análise de riscos
+    e na iteração contínua.
+   - **Quando usar**: Projetos complexos e de grande escala que requerem análise de riscos contínua e iterações.
+   - **Exemplo**: Desenvolvimento de um sistema de software para uma empresa de telecomunicações.
+
+6. **Modelo Ágil**:
+   - **Descrição**: Ênfase na flexibilidade, colaboração constante com o cliente e entregas contínuas de
+    pequenas partes funcionais. Métodos populares incluem Scrum e Kanban.
+   - **Quando usar**: Projetos que exigem flexibilidade, colaboração constante com o cliente e entregas contínuas de
+    pequenas partes funcionais. Ideal para ambientes dinâmicos e projetos onde os requisitos podem mudar frequentemente.
+   - **Exemplo**: Desenvolvimento de um software de gestão de projetos.
+
+7. **Modelo DevOps**:
+   - **Descrição**: Integra desenvolvimento (Dev) e operações (Ops) para melhorar a colaboração e eficiência, 
+   com foco na automação e entrega contínua.
+   - **Quando usar**: Projetos que necessitam de integração contínua entre desenvolvimento e operações para
+    melhorar a colaboração e eficiência.
+   - **Exemplo**: Desenvolvimento e manutenção de um serviço de streaming de vídeo.
+
+8. **Modelo Evolucionário**:
+- **Descrição**: Combina elementos dos modelos iterativo e incremental. O desenvolvimento é feito em ciclos, 
+onde cada ciclo resulta em uma versão mais completa e refinada do software.
+- **Quando usar**: Projetos com requisitos mutáveis e onde o feedback dos usuários é crucial.
+ Ideal para sistemas complexos que precisam ser desenvolvidos e refinados ao longo do tempo.
+- **Exemplo**: Desenvolvimento de software orientado a objetos, onde o sistema pode ser 
+dividido em unidades menores (objetos) que são desenvolvidas e refinadas iterativamente.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Alguns conceitos: ##
+
+1. **Ágil (Agile)**:
+- **Descrição**: Um conjunto de metodologias de desenvolvimento de software que enfatiza a flexibilidade, 
+colaboração e entrega contínua de pequenas partes funcionais do software.
+- **Quando usar**: Projetos onde os requisitos podem mudar frequentemente e a colaboração constante com o 
+cliente é essencial.
+
+2. **Scrum**:
+- **Descrição**: Uma estrutura dentro do Agile que divide o trabalho em ciclos curtos chamados Sprints,
+ geralmente de 2 a 4 semanas.
+- **Quando usar**: Projetos que se beneficiam de entregas rápidas e feedback contínuo.
+
+3. **Épico (Epic)**:
+- **Descrição**: Um grande corpo de trabalho que pode ser dividido em tarefas menores ou histórias de usuário.
+ É usado para planejar e organizar grandes funcionalidades ou projetos.
+- **Quando usar**: Projetos complexos que precisam ser divididos em partes menores para facilitar o 
+gerenciamento e o desenvolvimento.
+
+4. **Scrum Master**:
+- **Descrição**: Um papel dentro da equipe Scrum responsável por garantir que a equipe siga as práticas
+ e princípios do Scrum. Facilita reuniões, remove impedimentos e protege a equipe de distrações externas.
+- **Quando usar**: Em projetos que adotam a metodologia Scrum para garantir que a equipe esteja alinhada 
+e funcionando de maneira eficiente.
+
+5. **Backlog do Produto**:
+- **Descrição**: O Backlog do Produto é uma lista dinâmica e priorizada de todas as funcionalidades, melhorias, correções e elementos necessários para o desenvolvimento de um produto. É gerida pelo Product Owner.
+- **Função**: Serve para organizar e documentar todos os requisitos do projeto, ajudando a equipe a entender o que precisa ser feito e em que ordem.
+- **Estrutura**: Os itens mais importantes e de maior valor estão no topo da lista, enquanto os itens menos prioritários ficam mais abaixo.
+- **Vantagens**:
+  - Melhora o planejamento do projeto.
+  - Facilita a antecipação de tarefas.
+  - Auxilia na organização das atividades.
+- **Como estruturar**:
+  1. **Levantar requisitos**: Utilizar histórias de usuário para identificar as necessidades do produto.
+  2. **Definir critérios de priorização**: Ordenar os itens de acordo com a importância e o valor para o projeto.
+  3. **Revisar e ajustar**: Atualizar o backlog conforme o feedback dos clientes e as mudanças nas prioridades.
+
+6. **Daily Scrum**:
+- **Objetivo**: Facilitar a comunicação, identificar obstáculos e promover a tomada de decisões rápidas.
+- **Formato**: Cada membro responde a três perguntas: O que fiz ontem? O que farei hoje? Há algum impedimento 
+no meu caminho?
+- **Benefícios**: Melhora a colaboração, aumenta a transparência e mantém o foco no progresso do sprint.
+
+7. **Diagrama de Entidade-Relacionamento (DER)**:
+- **Descrição**: Um DER é um tipo de diagrama que ilustra como entidades (pessoas, objetos, conceitos) se relacionam entre si dentro de um sistema. É amplamente utilizado para projetar e depurar bancos de dados relacionais.
+- **Componentes Principais**:
+  - **Entidades**: Representadas por retângulos, são objetos ou conceitos que armazenam dados. Exemplo: Cliente, Produto.
+  - **Relacionamentos**: Representados por losangos, mostram como as entidades estão conectadas. Exemplo: Compra, Gerencia.
+  - **Atributos**: Representados por ovais, são as propriedades ou características das entidades. Exemplo: Nome, Data de Nascimento.
+  - **Cardinalidade**: Define o número mínimo e máximo de ocorrências de uma entidade em um relacionamento. Exemplo: 1:N (um para muitos), N:M (muitos para muitos).
+- **Histórico**: Desenvolvido por Peter Chen na década de 1970 para o design de bancos de dados.
+- **Usos**: Projetar a estrutura de bancos de dados, entender e documentar requisitos de sistemas, facilitar a comunicação entre desenvolvedores e stakeholders.
+- **Vantagens**:
+  - **Clareza Visual**: Facilita a compreensão das relações entre dados.
+  - **Organização**: Ajuda a organizar e estruturar dados de forma lógica.
+  - **Flexibilidade**: Pode ser ajustado conforme os requisitos mudam.
+- **Exemplo de Aplicação**: Modelagem de um sistema de gerenciamento de biblioteca, onde entidades como "Livro", "Usuário" e "Empréstimo" são definidas e seus relacionamentos são mapeados.
